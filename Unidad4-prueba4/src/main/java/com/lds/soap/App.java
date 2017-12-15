@@ -12,7 +12,7 @@ public class App {
 
 		GlobalWeatherStub globalWeatherStub = new GlobalWeatherStub();
 		GetCitiesByCountry getCitiesByCountry = new GetCitiesByCountry();
-		getCitiesByCountry.setCountryName("Canada");
+		getCitiesByCountry.setCountryName("Colombia");
 
 		GetCitiesByCountryResponse getCitiesByCountryResponse = globalWeatherStub.getCitiesByCountry(getCitiesByCountry);
 		
